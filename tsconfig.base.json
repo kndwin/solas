@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@solas/common-ui-react": ["libs/common/ui/react/src/index.ts"],
+      "@solas/common/data-access/trpc": [
+        "libs/common/data-access/trpc/src/index.ts"
+      ],
+      "@solas/common/ui/react": ["libs/common/ui/react/src/index.ts"],
+      "@solas/common/ui/react-native": [
+        "libs/common/ui/react-native/src/index.ts"
+      ],
+      "@solas/features/chat": ["libs/features/chat/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

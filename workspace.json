@@ -2,7 +2,15 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "solas": "apps/solas",
-    "solas-e2e": "apps/solas-e2e"
+    "app-desktop": "apps/app-desktop",
+    "app-desktop-e2e": "apps/app-desktop-e2e",
+    "app-mobile": "apps/app-mobile",
+    "app-mobile-e2e": "apps/app-mobile-e2e",
+    "app-web": "apps/app-web",
+    "app-web-e2e": "apps/app-web-e2e",
+    "common-data-access-trpc": "libs/common/data-access/trpc",
+    "common-ui-react": "libs/common/ui/react",
+    "common-ui-react-native": "libs/common/ui/react-native",
+    "features-chat": "libs/features/chat"
   }
 }
